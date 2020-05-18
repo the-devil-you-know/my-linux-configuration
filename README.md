@@ -75,3 +75,12 @@ text
           </configItem>
         </variant>
 ```
+
+#### 4. Create .xmodmap
+
+```
+$ git clone https://github.com/the-devil-you-know/x11-xkb-keyboard-configuration.git
+$ cd x11-xkb-keyboard-configuration
+$ copy .xmodmap ~/.xmodmap
+$ xmodmap .xmodmap
+```
