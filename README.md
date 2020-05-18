@@ -6,7 +6,7 @@ https://github.com/the-devil-you-know/colemak-qwerty-x11-xkb
 
 #### 2. Install "my-symbols" like step 1
 
-Append to file
+Append to the file
 
 ```
 $ sudo gedit /usr/share/X11/xkb/symbols/us
@@ -47,6 +47,31 @@ text
           <configItem>
             <name>my-symbols</name>
             <description>My Symbols</description>
+          </configItem>
+        </variant>
+```
+
+#### 3. Install "my-russian" like step 1
+
+Append to the file
+
+```
+$ sudo gedit /usr/share/X11/xkb/symbols/ru
+```
+
+text from the "ru-my" file.
+
+Update the "evdev.xml" file for the "ru" section
+
+```
+$ sudo gedit /usr/share/X11/xkb/rules/evdev.xml
+```
+text
+```
+        <variant>
+          <configItem>
+            <name>my-russian</name>
+            <description>My Russian</description>
           </configItem>
         </variant>
 ```
