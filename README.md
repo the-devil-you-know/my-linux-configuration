@@ -59,7 +59,7 @@ Append to the file
 $ sudo gedit /usr/share/X11/xkb/symbols/ru
 ```
 
-text from the "ru-my" file.
+text from the "ru-symbols" file.
 
 Update the "evdev.xml" file for the "ru" section
 
