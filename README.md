@@ -10,7 +10,7 @@ $ cp colemak-qwerty-x11-xkb/.xkb_keymap_us ~/.xkb_keymap_us
 ```
 
 
-# Touchpad
+#### Touchpad
 
 Natural scrolling and two-finger touch. Source: https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
 
@@ -27,4 +27,12 @@ Section "InputClass"
 EndSection
 
 EOF
+```
+
+#### Telegram
+
+https://github.com/telegramdesktop/tdesktop
+
+```
+$ sudo snap install telegram-desktop
 ```
