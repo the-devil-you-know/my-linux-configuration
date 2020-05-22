@@ -85,9 +85,10 @@ $ copy .xmodmap ~/.xmodmap
 $ xmodmap .xmodmap
 ```
 
-#### 5. Touchpad
 
-Source: https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
+# Touchpad
+
+Natural scrolling and two-finger touch. Source: https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
 
 ```
 sudo mkdir -p /etc/X11/xorg.conf.d && sudo tee <<'EOF' /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null
