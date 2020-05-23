@@ -1,0 +1,56 @@
+set keep-english-in-normal-and-restore-in-insert
+set clipboard+=unnamed " do not use case * for the system clipboard
+set ignorecase
+set visualbell
+
+" ignore default decrement number
+vnoremap <C-x> e
+nnoremap <C-x> e
+onoremap <C-x> e
+
+let mapleader = " "
+
+vnoremap p "_dP
+vmap p "_dP
+
+vnoremap e $
+nnoremap e $
+onoremap e $
+nnoremap y ^
+vnoremap y ^
+onoremap y ^
+
+vnoremap m y
+nnoremap m y
+nnoremap M yy
+vnoremap h f
+nnoremap h f
+onoremap h f
+vnoremap H F
+nnoremap H F
+onoremap H F
+
+imap <C-p> <C-o>P<Right>
+
+nnoremap E <C-d>
+nnoremap U <C-u>
+
+nnoremap <leader>' ci'
+nnoremap <leader>w ciw
+nnoremap <leader>y yiw
+nnoremap <leader>o o<C-o>o
+nnoremap <leader>t ""p
+nnoremap <leader>a A
+nnoremap <leader>i I
+nnoremap <leader>s A<Left><Left>,<space>
+nnoremap <leader>p' vi'p
+nnoremap <leader>p" vi"p
+nnoremap <leader>pb vibp
+nnoremap <leader>pw viwp
+
+nmap f :action AceAction<CR>
+nmap F :action AceWordAction<CR>
+nmap ; :action AceDeclarationAction<CR>
+nmap b :action GotoDeclaration<CR>
+nmap q :action QuickJavaDoc<CR>
+nmap / :action CommentByLineComment<CR
