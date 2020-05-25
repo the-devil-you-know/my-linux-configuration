@@ -178,6 +178,7 @@ bindcode $mod+33 exec "/opt/deadbeef/bin/deadbeef"
 
 exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
 assign [class="TelegramDesktop"] 3
+assign [class="Vivaldi-stable"] 4
 assign [class="Thunderbird"] 5
 assign [class="Skype"] 5
 assign [class="Deadbeef"] 10
