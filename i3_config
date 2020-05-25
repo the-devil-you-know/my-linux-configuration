@@ -176,8 +176,11 @@ bindcode $mod+27 mode "resize"
 
 bindcode $mod+33 exec "/opt/deadbeef/bin/deadbeef"
 
+exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
 assign [class="TelegramDesktop"] 3
-exec --no-startup-id i3-msg 'workspace 3; exec telegram-desktop'
+assign [class="Thunderbird"] 5
+assign [class="Skype"] 5
+assign [class="Deadbeef"] 10
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
