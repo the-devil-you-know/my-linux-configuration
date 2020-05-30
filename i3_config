@@ -191,8 +191,9 @@ bar {
 }
 
 exec "xkbcomp .xkb_keymap_us $DISPLAY && xcape -e 'Mode_switch=Escape'"
-
 bindcode $mod+Shift+38 exec "setxkbmap -layout us"
 bindcode $mod+38 exec "xkbcomp .xkb_keymap_us $DISPLAY && xcape -e 'Mode_switch=Escape'"
-
 bindcode $mod+39 exec "xkbcomp .xkb_keymap_ru $DISPLAY && xcape -e 'Mode_switch=Escape'"
+
+bindcode $mod+72 exec "sudo ./.brightness_control -1000"
+bindcode $mod+73 exec "sudo ./.brightness_control 1000"
