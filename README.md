@@ -10,6 +10,14 @@ $ cp colemak-qwerty-x11-xkb/.xkb_keymap_us ~/.xkb_keymap_us
 ```
 
 
+#### Brightness Control
+
+```
+$ cp my-linux-configuration/.brightness_control ~/.brightness_control
+$ chmod +x ~/.brightness_control
+```
+
+
 #### Touchpad
 
 Natural scrolling and two-finger touch. Source: https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
