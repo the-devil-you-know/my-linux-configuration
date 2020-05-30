@@ -78,7 +78,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientatio
-bindcode $mod+43 split horisontal
+bindcode $mod+43 split horizontal
 
 # split in vertical orientation
 bindcode $mod+55 split vertical
