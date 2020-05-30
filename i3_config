@@ -197,3 +197,7 @@ bindcode $mod+39 exec "xkbcomp .xkb_keymap_ru $DISPLAY && xcape -e 'Mode_switch=
 
 bindcode $mod+72 exec "sudo ./.brightness_control -10000"
 bindcode $mod+73 exec "sudo ./.brightness_control 10000"
+
+bindcode $mod+69 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindcode $mod+68 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindcode $mod+67 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
