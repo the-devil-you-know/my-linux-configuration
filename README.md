@@ -15,6 +15,7 @@ $ cp colemak-qwerty-x11-xkb/.xkb_keymap_us ~/.xkb_keymap_us
 ```
 $ cp my-linux-configuration/.brightness_control ~/.brightness_control
 $ chmod +x ~/.brightness_control
+$ echo 'ivan ALL=NOPASSWD:/home/ivan/.brightness_control' | sudo EDITOR='tee -a' visudo
 ```
 
 
