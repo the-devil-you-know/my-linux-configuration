@@ -190,6 +190,8 @@ bar {
         status_command i3status
 }
 
+exec "xinput set-prop 13 "libinput Accel Speed" 0.5"
+
 exec "xkbcomp .xkb_keymap_us $DISPLAY && xcape -e 'Mode_switch=Escape'"
 bindcode $mod+Shift+38 exec "setxkbmap -layout us"
 bindcode $mod+38 exec "xkbcomp .xkb_keymap_us $DISPLAY && xcape -e 'Mode_switch=Escape'"
