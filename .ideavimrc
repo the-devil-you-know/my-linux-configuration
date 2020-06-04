@@ -53,4 +53,4 @@ nmap F :action AceWordAction<CR>
 nmap ; :action AceDeclarationAction<CR>
 nmap b :action GotoDeclaration<CR>
 nmap q :action QuickJavaDoc<CR>
-nmap / :action CommentByLineComment<CR
+nmap / :action CommentByLineComment<CR>
