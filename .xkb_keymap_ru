@@ -46,7 +46,13 @@ xkb_keymap {
         key <AD10> {
             actions[Group2] = [ RedirectKey(keycode=<DELE>) ]
         };
-    
+        key <AD12> {
+            symbols[Group1] = [ Cyrillic_yu, Cyrillic_YU ]
+        };
+
+        key <AC02> {
+            symbols[Group1] = [ Cyrillic_yeru, Cyrillic_hardsign ]
+        };
         key <AC06> {
             actions[Group2] = [ RedirectKey(keycode=<PGDN>) ]
         };
@@ -64,14 +70,13 @@ xkb_keymap {
         };
 
         key <AB07> {
-            symbols[Group2] = [ Cyrillic_shorti, Cyrillic_SHORTI ]
+            symbols[Group1] = [ Cyrillic_softsign, Cyrillic_shorti ]
         };
         key <AB08> {
             symbols[Group1] = [ comma, less ]
         };
         key <AB09> {
-            symbols[Group1] = [ period, greater ],
-            symbols[Group2] = [ Cyrillic_yu, Cyrillic_YU ]
+            symbols[Group1] = [ period, greater ]
         };
         key <AB10> {
             symbols[Group1] = [ slash, question ]
