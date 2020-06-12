@@ -180,5 +180,6 @@ new_window 1pixel
 
 # https://www.reddit.com/r/i3wm/comments/eio1yo/floating_intellij_idea_loading_window/
 for_window [class="jetbrains-.*" title="win0"] floating enable
-for_window [class="jetbrains-.*" title="Commit Changes"] floating disable; resize set 400 1
+for_window [class="jetbrains-.*" title="Commit Changes"] floating disable; resize set 500 1
 for_window [class="jetbrains-.*" title=".*\[Default Changelist\]"] fullscreen enable
+for_window [class="jetbrains-.*" title="Settings"] floating disable; resize set 500 1
