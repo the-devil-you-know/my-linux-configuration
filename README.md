@@ -5,16 +5,9 @@ $ git clone https://github.com/the-devil-you-know/my-linux-configuration.git
 $ git clone https://github.com/the-devil-you-know/colemak-qwerty-x11-xkb.git
 
 $ cp my-linux-configuration/.Xresources ~/.Xresources
-$ cp my-linux-configuration/i3_config ~/.config/i3/config
-```
+$ cp my-linux-configuration/i3_config ~/.config/i3/configo
 
-
-#### Brightness Control
-
-```
-$ cp my-linux-configuration/.brightness_control ~/.brightness_control
-$ chmod +x ~/.brightness_control
-$ echo 'ivan ALL=NOPASSWD:/home/ivan/.brightness_control' | sudo EDITOR='tee -a' visudo
+$ echo 'ivan ALL=NOPASSWD:/home/ivan/my-linux-configuration/brightness_control' | sudo EDITOR='tee -a' visudo
 ```
 
 
