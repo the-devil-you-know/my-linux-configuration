@@ -3,7 +3,7 @@ $ git clone https://github.com/the-devil-you-know/my-linux-configuration.git
 $ cp my-linux-configuration/.xkb_keymap_ru ~/.xkb_keymap_ru
 $ cp my-linux-configuration/.Xresources ~/.Xresources
 $ cp my-linux-configuration/i3_config ~/.config/i3/config
-$ sudo apt install xcape
+$ sudo apt install xcape xdotool -y
 
 $ git clone https://github.com/the-devil-you-know/colemak-qwerty-x11-xkb.git
 $ cp colemak-qwerty-x11-xkb/.xkb_keymap_us ~/.xkb_keymap_us
