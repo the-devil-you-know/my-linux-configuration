@@ -5,7 +5,7 @@ $ git clone https://github.com/the-devil-you-know/my-linux-configuration.git
 $ git clone https://github.com/the-devil-you-know/colemak-qwerty-x11-xkb.git
 
 $ cp my-linux-configuration/.Xresources ~/.Xresources
-$ cp my-linux-configuration/i3_config ~/.config/i3/configo
+$ cp my-linux-configuration/i3_config ~/.config/i3/config
 
 $ echo 'ivan ALL=NOPASSWD:/home/ivan/my-linux-configuration/brightness_control.sh' | sudo EDITOR='tee -a' visudo
 ```
