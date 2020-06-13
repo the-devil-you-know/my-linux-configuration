@@ -162,10 +162,10 @@ bar {
 
 exec "xinput set-prop 13 \"libinput Accel Speed\" 0.4"
 
-exec "xkbcomp .xkb_keymap_us $DISPLAY && xcape -e 'Mode_switch=Escape'"
+exec "colemak-qwerty-x11-xkb/set_us_layout.sh"
 bindcode $mod+Shift+38 exec "setxkbmap -layout us"
-bindcode $mod+38 exec "xkbcomp .xkb_keymap_us $DISPLAY && xcape -e 'Mode_switch=Escape'"
-bindcode $mod+39 exec "xkbcomp .xkb_keymap_ru $DISPLAY && xcape -e 'Mode_switch=Escape'"
+bindcode $mod+38 exec "colemak-qwerty-x11-xkb/set_us_layout.sh"
+bindcode $mod+39 exec "my-linux-configuration/set_ru_layout.sh"
 
 bindcode $mod+72 exec "sudo my-linux-configuration/brightness_control.sh -10000"
 bindcode $mod+73 exec "sudo my-linux-configuration/brightness_control.sh 10000"
