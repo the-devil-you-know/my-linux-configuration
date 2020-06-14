@@ -159,6 +159,7 @@ assign [class="Deadbeef"] 10
 bar {
         status_command i3status
         mode hide
+        modifier Mod1
 }
 
 exec "xinput set-prop 13 \"libinput Accel Speed\" 0.4"
