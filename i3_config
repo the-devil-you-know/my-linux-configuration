@@ -187,5 +187,5 @@ for_window [class="jetbrains-.*" title="Commit Changes"] floating disable; resiz
 for_window [class="jetbrains-.*" title=".*\[Default Changelist\]"] fullscreen enable
 for_window [class="jetbrains-.*" title="Settings"] floating disable; resize set 600 1
 
-exec_always "feh --bg-fill Pictures/bg2.jpg"
+exec_always "feh --bg-fill Pictures/desktop_feh"
 exec_always "compton"
