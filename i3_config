@@ -96,7 +96,7 @@ bindsym $mod+6 workspace number $ws6 exec "colemak-qwerty-x11-xkb/set_us_layout.
 bindsym $mod+7 workspace number $ws7 exec "colemak-qwerty-x11-xkb/set_us_layout.sh"
 bindsym $mod+8 workspace number $ws8 exec "colemak-qwerty-x11-xkb/set_us_layout.sh"
 bindsym $mod+9 workspace number $ws9 exec "colemak-qwerty-x11-xkb/set_us_layout.sh"
-bindsym $mod+0 workspace number $ws10 exec "colemak-qwerty-x11-xkb/set_us_layout.sh"
+bindsym $mod+0 workspace number $ws10 exec "colemak-qwerty-x11-xkb/set_us_layout.sh && deadbeef"
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -144,7 +144,9 @@ mode "resize" {
 
 bindcode $mod+27 mode "resize"
 
-bindcode $mod+33 exec "/opt/deadbeef/bin/deadbeef"
+bindcode $mod+33 exec "deadbeef --toggle-pause"
+bindcode $mod+34 exec "deadbeef --prev"
+bindcode $mod+35 exec "deadbeef --next"
 
 exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
 assign [class="TelegramDesktop"] 3
