@@ -164,6 +164,9 @@ bar {
         modifier Mod1
 }
 
+bindcode $mod+48       exec "maim -s | xclip -selection clipboad -t image/png"
+bindcode $mod+Shift+48 exec "maim | xclip -selection clipboad -t image/png"
+
 exec "xinput set-prop 13 \"libinput Accel Speed\" 0.4"
 
 exec "colemak-qwerty-x11-xkb/set_us_layout.sh"

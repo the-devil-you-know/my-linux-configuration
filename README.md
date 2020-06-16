@@ -1,5 +1,5 @@
 ```
-$ sudo apt install xcape compton feh -y
+$ sudo apt install xcape compton feh maim xclip -y
 
 $ git clone https://github.com/the-devil-you-know/my-linux-configuration.git
 $ git clone https://github.com/the-devil-you-know/colemak-qwerty-x11-xkb.git
