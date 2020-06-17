@@ -1,10 +1,11 @@
 ```
-$ sudo apt install xcape compton feh maim xclip -y
+$ sudo apt install xcape compton feh maim xclip rofi -y
 
 $ git clone https://github.com/the-devil-you-know/my-linux-configuration.git
 $ git clone https://github.com/the-devil-you-know/colemak-qwerty-x11-xkb.git
 
 $ cp my-linux-configuration/.Xresources ~/.Xresources
+$ mkdir -p ~/.config/rofi && cp my-linux-configuration/rofi_theme.rasi ~/.config/rofi/my_theme.rasi
 $ cp my-linux-configuration/i3_config ~/.config/i3/config
 
 $ echo 'ivan ALL=NOPASSWD:/home/ivan/my-linux-configuration/brightness_control.sh' | sudo EDITOR='tee -a' visudo
