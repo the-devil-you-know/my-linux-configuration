@@ -10,6 +10,7 @@ configuration {
     //drun-match-fields: "name,generic,exec,categories";
     drun-match-fields: "name";
     matching: "fuzzy";
+    fullscreen: true;
 }
 
 textbox-prompt-colon, prompt {
