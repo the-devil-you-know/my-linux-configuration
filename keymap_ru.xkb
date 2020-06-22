@@ -10,7 +10,7 @@ xkb_keymap {
 
     xkb_symbols {
 
-        include "pc+ru"        
+        include "pc+ru+us:2"
 
 
         // ////
